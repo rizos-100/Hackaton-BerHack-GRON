@@ -1,0 +1,66 @@
+
+body{
+
+	background-image: url("../img/fondo.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+
+}
+.row p.caja1, ul.caja1 { 
+padding: 5px;
+font-family: Arial; 
+font-size: 20px; 
+font-weight: auto; 
+color: #ffffff; 
+background:#00BFE9;
+opacity: 0.9;
+}
+.row h3.info { 
+padding: 2em;
+padding-right: 2em;
+padding-left: 2em;
+font-family: Arial; 
+font-size: 20px; 
+font-weight: auto; 
+color: #ffffff; 
+background:#00BFE9;
+border-radius: 50px;
+
+}
+.row p.donar { 
+padding: 10px;
+padding-right: 1em;
+padding-left: 1em;
+font-family: Arial; 
+font-size: 20px; 
+font-weight: auto; 
+color: green; 
+background:#ffffff;
+border-radius: 20px;
+text-align: center;
+font-weight: bold;
+}
+
+.row .info { 
+padding: 6px;
+padding-right: auto;
+padding-left: auto;
+font-family: Arial; 
+font-size: 30px; 
+font-weight: auto; 
+color: green; 
+background:#ffffff;
+border-radius: 10px;
+text-align: center;
+
+}
+.row p.slide{
+	background: #ffffff;
+	color: green;
+	font-size: 30px;
+	opacity: 0.6;
+	width: 100%;
+
+}
+

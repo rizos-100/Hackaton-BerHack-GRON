@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Mi rincón verde</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="img/logo.png" width="100%">
+    </div>
+  </div>
+</div>
+
+	<br>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #5AB905;" align-text-right>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse align-text-right" id="menu">
+    <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i>
+    Inicio</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="navbar-brand" href="saber.html"><i class="fas fa-leaf"></i></i>
+    Saber mas..</a>
+      </li>
+      <li class="nav-item active">
+        <a class="navbar-brand" href="donar.html"><i class="fas fa-hand-holding-heart"></i>
+    Contribuciones</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <p class="donar">
+        <img src="img/donacion/inve.jpg" width="100%">
+        Si tu tienes un vivero o empresa y quieres unirte a este movimiento da click aqui abajo<br>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#proveedor">
+        Sumate
+      </button>
+      </p>
+
+<!-- Modal -->
+
+<div class="modal fade" id="proveedor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Proveedor</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            <form >
+
+             <div class="form-group">
+                <label for="exampleInputNombre1">Nombre de Vivero o Empresa:</label>
+                <input type="text" class="form-control" id="nombreP" aria-describedby="emailHelp" placeholder="Vivero o Empresa" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputTelefono1">Telefono:</label>
+                <input type="text" class="form-control" id="telP" placeholder="Numero a 10 digitos" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Correo:</label>
+                <input type="email" class="form-control" id="correP" placeholder="ejemplo@gto.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputCalle1">Calle:</label>
+                <input type="text" class="form-control" id="calleP" placeholder="ejemplo #100" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputColonia1">Colonia:</label>
+                <input type="text" class="form-control" id="colP" placeholder="Col. El callejon" required>
+              </div>
+
+                <div class="form-group">
+                <label for="exampleFormControlSelect1">Plantas a ofrecer</label>
+                <select class="form-control" id="primary" name="municipios">
+                  <option value="0">Palo loco</option>
+                  <option value="1">Encino Quiebra Hacha</option>
+                  <option value="2">Pingüica</option>
+                  <option value="3">Flor Tocada</option>
+                  <option value="4">Cola de Caballo</option>
+                  <option value="5">Mira Sol</option>
+              	</select>
+                </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" onclick='alert("Proveedor Guardado")'
+        data-dismiss="modal">Guardar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col-md-6">
+        <p class="donar">
+          <img src="img/donacion/usua.jpg" width="100%">
+         Si quieres unirte a este movimiento como voluntario o adoptar un arbol da click aqui<br>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#usuario">
+        Unete
+      </button>
+      </p>
+
+<!-- Modal -->
+
+<div class="modal fade" id="usuario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Usuario</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            <form >
+
+             <div class="form-group">
+                <label for="exampleInputNombre1">Nombre de usuario:</label>
+                <input type="text" class="form-control" id="nombreU" aria-describedby="emailHelp" placeholder="Juan Lopez Villagran" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputTelefono1">Telefono:</label>
+                <input type="text" class="form-control" id="telU" placeholder="Numero a 10 digitos" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Correo:</label>
+                <input type="email" class="form-control" id="correC" placeholder="ejemplo@gto.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputCalle1">Calle:</label>
+                <input type="text" class="form-control" id="calleU" placeholder="ejemplo #100" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputColonia1">Colonia:</label>
+                <input type="text" class="form-control" id="colU" placeholder="Col. El callejon" required>
+              </div>
+
+               <div class="form-group">
+                <label for="exampleFormControlSelect1">Ciudad:</label>
+                <select class="form-control" id="primary" name="municipios">
+                  <option value="0">Guanajuato</option>
+                  <!--<option value="0">todo el estado</option>
+                  <option value="1">Abasolo</option>
+                  <option value="2">Acambaro</option>
+                  <option value="3">San Miguel de Allende</option>
+                  <option value="4">Apaseo el Alto</option>
+                  <option value="5">Apaseo el Grande</option>
+                  <option value="6">Atarjea</option>
+                  <option value="7">Celaya</option>
+                  <option value="8">Manuel Doblado</option>
+                  <option value="9">Comonfort</option>
+                  <option value="10">Coroneo</option>
+                  <option value="11">Cortazar</option>
+                  <option value="12">Cueramaro</option>
+                  <option value="13">Doctor Mora</option>
+                  <option value="14">Dolores Hidalgo Cuna de la Independencia Nacional</option>
+                  <option value="15">Guanajuato</option>
+                  <option value="16">Huanimaro</option>
+                  <option value="17">Irapuato</option>
+                  <option value="18">Jaral del Progreso</option>
+                  <option value="19">Jerecuaro</option>
+                  <option value="20">Leon</option>
+                  <option value="21">Moroleon</option>
+                  <option value="22">Ocampo</option>
+                  <option value="23">Penjamo</option>
+                  <option value="24">Pueblo Nuevo</option>
+                  <option value="25">Purisima del Rincon</option>
+                  <option value="26">Romita</option>
+                  <option value="27">Salamanca</option>
+                  <option value="28">Salvatierra</option>
+                  <option value="29">San Diego de la Union</option>
+                  <option value="30">San Felipe</option>
+                  <option value="31">San Francisco del Rincon</option>
+                  <option value="32">San Jose Iturbide</option>
+                  <option value="33">San Luis de la Paz</option>
+                  <option value="34">Santa Catarina</option>
+                  <option value="35">Santa Cruz de Juventino Rosas</option>
+                  <option value="36">Santiago Maravatio</option>
+                  <option value="37">Silao</option>
+                  <option value="38">Tarandacuao</option>
+                  <option value="39">Tarimoro</option>
+                  <option value="40">Tierra Blanca</option>
+                  <option value="41">Uriangato</option>
+                  <option value="42">Valle de Santiago</option>
+                  <option value="43">Victoria</option>
+                  <option value="44">Villagran</option>
+                  <option value="45">Xichu</option>
+                  <option value="46">Yuriria</option>-->
+
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Especie:</label>
+                 <select class="form-control" id="secondary" name="especie">
+                </select>
+              </div>
+            </form>
+          </div>
+           
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" onclick='alert("Usuario Guardado")'
+        data-dismiss="modal">Guardar</button>
+        
+       </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+<center>
+<div class="container">
+  <div class="row">
+    <div class="center-block">
+    <div class="col-md-8">
+     <p class="donar">
+          <img src="img/donacion/serv.jpg" width="100%">
+          Ven y haz tu servicio social con NOSOTROS<br>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#servicio">
+        Colabora
+      </button>
+      </p>
+
+      <!-- Modal -->
+      <div class="modal fade" id="servicio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-align-left" id="exampleModalLabel" >Servicio Social</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <div class="form-group">
+                <label for="exampleInputN1">Nombre:</label>
+                <input type="text" class="form-control" id="nombreS" aria-describedby="emailHelp" placeholder="Juanito truchas" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputT1">Telefono:</label>
+                <input type="text" class="form-control" id="telS" placeholder="Numero a 10 digitos" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Correo:</label>
+                <input type="email" class="form-control" id="correS" placeholder="ejemplo@gto.com" required>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary" onclick='alert("Usuario Guardado")'
+              data-dismiss="modal">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</center>
+<footer style="background-color: #5AB905;font-size: 20px; text-align: center;">
+  Proyecto elaborado por GRON<br>
+  gron@gmail.com Tel. 4772475304<br>
+
+</footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js/zona.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
